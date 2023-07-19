@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #Header {
+        background-color: #cccc;
+        height: 19rem;
+        width: 100%;
+        padding-top: 5rem;
+    }
+
+
+    .navbar {
+        display: inline-flex;
+    }
+
+    .icon {
+        background-color: #fff;
+        width: 8rem;
+        height: 8rem;
+        border-radius: 50%;
+        margin-left: 100px;
+    }
+
+    .icon h3 {
+        position: absolute;
+        margin-left: 2.5rem;
+        margin-top: 3rem;
+    }
+
+    .header {
+        background-color: #cccccc;
+        margin-left: 7rem;
+        width: 43rem;
+        height: 4.5rem;
+        padding-top: 1.5rem;
+        margin-top: 1.5rem;
+        border-radius: 20px;
+    }
+
+    .header ul {
+        display: inline-flex;
+
+    }
+
+    .header li {
+        margin-left: 3rem;
+        list-style: none;
+        color:#555;
+    }
+
+    .header .active {
+        background-color: #555;
+        color: white;
+        text-align: center;
+        line-height: 30px;
+        padding: 8px;
+        position: relative;
+        top: -12px;
+    }
+
+
+
+    /* .header a:first-child{
+   border-bottom: solid 2px #555;
+   position: absolute;
+     
+ } */
+
+    .header a {
+        text-decoration: none;
+        color: #fff;
+        font-weight: bold;
+        background-color: #cccccc;
+    }
+
+    .Title {
+        margin-left: 3rem;
+    }
+
+    .Title p {
+        color: #555;
+        margin-top: -1rem;
+    }
+
+    .middle-section {
+        margin-top: 4rem;
+        padding-left: 5rem;
+    }
+
+    .section1 {
+        background-color: #5555;
+        height: 10rem;
+        width: 19rem;
+        margin-left: 10rem;
+    }
+
+    .section2 {
+        margin-left: 35rem;
+        margin-top: -11rem;
+
+    }
+
+    .section {
+        background-color: #5555;
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    .Read-more,
+    a {
+        color: #eee;
+        background-color: #555;
+        text-decoration: none;
+    }
+
+    .two {
+        display: flex;
+    }
+
+    .two div {
+        background-color: #555;
+        margin-left: 100px;
+        width: 10%;
+        height: 150px;
+    }
+
+    #two {
+        background-color: #cccccc;
+        text-align: center;
+        padding: 12px;
+        height: 300px;
+    }
+
+    #two h3 {
+        font-weight: bolder;
+        font-size: 32px;
+    }
+
+    footer {
+        background: #555;
+        padding: 50px;
+        display: flex;
+    }
+
+    footer h3 {
+        color: #eee;
+        font-size: 25px;
+    }
+
+    footer p,
+    li {
+        color: #cccccc;
+    }
+
+    footer div {
+        width: 50%;
+    }
+
+    footer input,
+    textarea {
+        margin-top: 12px;
+    }
+
+    footer .icon h4 {
+        position: absolute;
+        margin-left: 2.5rem;
+        margin-top: 3rem;
+    }
+
+ 
+</style>
+
+<body>
+    <nav id="Header">
+        <div class="navbar">
+            <div class="icon">
+                <h3>LOGO</h3>
+            </div>
+
+            <div class="header">
+                <ul>
+                    <a href="">
+                        <li class="active">HOME</li>
+                    </a>
+
+                    <a href="">
+                        <li>LOCATION</li>
+                    </a>
+
+                    <a href="">
+                        <li>CONTACT</li>
+                    </a>
+
+                    <a href="">
+                        <li>FEATURES</li>
+                    </a>
+                    <a href="">
+                        <li>ABOUT</li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <div class="Title">
+            <main>
+                <h2>Hero Title Example</h2>
+                <p>Hero Sub Title Description</p>
+            </main>
+        </div>
+    </nav>
+    <div class="middle-section">
+        <div class="section1"></div>
+        <div class="section2">
+            <h3>Hero Tile Example</h3>
+            <p>Hero Sub-Title Description</p>
+            <p>This is the king of bravery <br>
+                that can move mountain <br>
+                You have got to be very brave <br>
+                for you to conqure the world <br>
+                Always make everything count</p>
+            <button class="Read-more"><a href="">Read More</a></button>
+
+        </div>
+    </div>
+
+    <section id="two">
+        <h3>Sponsors Example</h3>
+        <p>Sponsors Description</p>
+        <div class="two">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+
+    </section>
+
+
+    <footer>
+        <div>
+            <h3>Contact Us</h3>
+            <p>Send us a message</p>
+
+            <form action="">
+                <input type="text" placeholder="Full Name"><br>
+                <input type="email" placeholder="Your Email">
+                <textarea name="" id="" cols="30" rows="5" placeholder="Your Message"></textarea><br>
+                <input type="submit">
+            </form>
+        </div>
+
+        <div>
+            <h3>Sitemap</h3>
+            <p>All Our Pages</p>
+            <ul>
+                <li>Home</li>
+                <li>About Us</li>
+                <li>Features</li>
+                <li>Pricing</li>
+                <li>Contact Us</li>
+            </ul>
+        </div>
+
+        <div>
+            <div class="icon">
+                <h4>LOGO</h4>
+            </div>
+            <p>090123456789</p>
+            <p>example@gmail.com</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
